@@ -103,7 +103,7 @@ var matches = [
         ]
     }
 
-]
+];
 
 // Export the array so it is accessible to other files using require.
-module.exports = friends;
+module.exports = matches;
