@@ -170,7 +170,7 @@
     <hr>
     <footer class="footer">
         <div class="container">
-            <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/afhaque/friendfinder">GitHub Repo</a></p>
+            <p><a href="/api/matches">API Matches List</a> | <a href="https://github.com/NBDelpino1/matchup">GitHub Repo</a></p>
         </div>
     </footer>
 
@@ -251,7 +251,7 @@
             var currentURL = window.location.origin;
 
             // AJAX post the data to the matches API to pass in the user data
-            $.post(currentURL + "/api/friends", userData, function(data){
+            $.post(currentURL + "/api/matches", userData, function(data){
 
                 // Test to see if working
                 // alert("working!!");
