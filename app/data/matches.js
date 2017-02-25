@@ -3,7 +3,7 @@
 // Below data will hold all of the possible matches.
 // ===============================================================================
 
-// Create an array of possible compatible matches, each potential match is an object, inside each object will have three attributes [name, photo and score]
+// create an array of possible compatible matches, each potential match is an object, inside each object will have three attributes [name, photo and score]
 
 var matches = [
     {
@@ -105,5 +105,5 @@ var matches = [
 
 ];
 
-// Export the array so it is accessible to other files using require.
+// export the array so it is accessible to other files using require.
 module.exports = matches;
