@@ -1,4 +1,4 @@
-// include path package that will deliver pages using Express
+// include path package that will deliver pages using Express JS
 var path = require("path");
 
 // build routes that will tell the router what page to deliver based on the url
