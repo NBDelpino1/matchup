@@ -68,7 +68,7 @@ module.exports = function(app) {
         // the database will always return that the user is the user's best friend).
         matches.push(userData);
 
-        // Return a JSON with the user's bestMatch. This will be used by the HTML in the next page.
+        // Return a JSON with the user's bestMatch that will go back to front end of the application [HTML].
         res.json(bestMatch);
 
     });
