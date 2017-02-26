@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>FriendFinder</title>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Matchup</title>
 
     <!-- Latest compiled and minified CSS & JS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -15,6 +17,9 @@
     <!-- Chosen jQuery Plugin (Make selects easier to manage) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+
+    <!-- Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 
 </head>
 <body>
@@ -223,10 +228,9 @@
 
     // Chosen jQuery Plugin CSS
     var config = {
-        '.chosen-select'           : {},
+//        '.chosen-select'           : {},
         '.chosen-select-deselect'  : {allow_single_deselect:true},
-        '.chosen-select-no-single' : {disable_search_threshold:10},
-        '.chosen-select-no-results': {no_results_text:'Oops, nothing found!'},
+        '.chosen-select' : {disable_search_threshold:10},
         '.chosen-select-width'     : {width:"95%"}
     }
     for (var selector in config) {
@@ -288,7 +292,7 @@
         }
         else
         {
-//            alert("Please fill out all fields before submitting!");
+            // alert("Please fill out all fields before submitting!");
             $("#alertModal").modal('toggle');
         }
 
@@ -296,5 +300,7 @@
     });
 
 </script>
+
+<!--<script src="../data/app.js"></script>-->
 </body>
 </html>
