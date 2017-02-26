@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+app.use(express.static(__dirname + '/public'));
 var bodyParser = require('body-parser');
 
 var PORT = process.env.PORT || 8081;
@@ -16,6 +17,15 @@ app.use(bodyParser.raw({ type: 'application/vnd.custom-type' }));
 
 // parse an HTML body into a string
 app.use(bodyParser.text({ type: 'text/html' }));
+
+
+
+
+
+
+
+
+
 
 //include api routes
 require('./app/routing/api-routes.js')(app);
