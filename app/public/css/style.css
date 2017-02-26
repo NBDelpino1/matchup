@@ -27,10 +27,10 @@ body {
         /*rgba(33, 150, 243, 0.68)*/
         /*),*/
 
-            /*linear-gradient(*/
-                    /*rgba(0, 0, 0, 0.6),*/
-                    /*rgba(0, 0, 0, 0.6)*/
-            /*),*/
+            linear-gradient(
+                    rgba(0, 0, 0, 0.6),
+                    rgba(0, 0, 0, 0.6)
+            ),
             url(../img/bgimg.jpeg) no-repeat center center scroll;
     display: table;
     position: relative;
