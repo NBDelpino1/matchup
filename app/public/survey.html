@@ -18,428 +18,192 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Sansita:700i" rel="stylesheet">
+
     <!-- Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 
 </head>
 <body>
 
+<div class="survey-content-wrapper">
+    <div class="survey-content-inner">
+        <div class="question-main-wrapper">
 
-
-
-
-
-
-    <!--<div class="container unstickyheader">-->
-
-        <!--<div class="stickyalias">-->
-            <!--&lt;!&ndash; Stays together &ndash;&gt;-->
-            <!--<div class="header text-center">-->
-                <!--<img src="img/logoimgsmall.png">-->
-                <!--<h3>Survey Questions</h3>-->
-            <!--</div>-->
-    <!---->
-    <!---->
-            <!--<div class="userinput-wrapper">-->
-                <!--&lt;!&ndash;<span class="badge about-badge">About You</span>&ndash;&gt;-->
-    <!---->
-                <!--<h4 class="ctatext">Name (Required)</h4>-->
-                <!--&lt;!&ndash;Get User name&ndash;&gt;-->
-                <!--<input type="text" name="" id="name" class="form-control" required >-->
-    <!---->
-                <!--<h4 class="ctatext">Link to Photo Image (Required)</h4>-->
-                <!--&lt;!&ndash;Get User photo&ndash;&gt;-->
-                <!--<input type="text" name="" id="photo" class="form-control" required >-->
-            <!--</div>-->
-        <!--</div>-->
-
-
-
-
-        <!--<div class="stickyheader">-->
-            <!--<div class="question-wrapper">-->
-                <!--<span class="badge">Q1</span>-->
-                <!--<h4>Your mind is always buzzing with unexplored ideas and plans.</h4>-->
-                <!--&lt;!&ndash; * Numbers associated with user choice || id associated with question number&ndash;&gt;-->
-                <!--<select data-placeholder="" class="chosen-select" id="q1">-->
-                    <!--<option value=""></option>-->
-                    <!--<option value="1">1 (Strongly Disagree)</option>-->
-                    <!--<option value="2">2</option>-->
-                    <!--<option value="3">3</option>-->
-                    <!--<option value="4">4</option>-->
-                    <!--<option value="5">5 (Strongly Agree)</option>-->
-                <!--</select>-->
-            <!--</div>-->
-
-            <!--<div class="question-wrapper">-->
-                <!--<span class="badge">Q2</span>-->
-                <!--<h4>Generally speaking, you rely more on your experience than your imagination.</h4>-->
-                <!--&lt;!&ndash; * Numbers associated with user choice || id associated with question number&ndash;&gt;-->
-                <!--<select data-placeholder="" class="chosen-select" id="q2">-->
-                    <!--<option value=""></option>-->
-                    <!--<option value="1">1 (Strongly Disagree)</option>-->
-                    <!--<option value="2">2</option>-->
-                    <!--<option value="3">3</option>-->
-                    <!--<option value="4">4</option>-->
-                    <!--<option value="5">5 (Strongly Agree)</option>-->
-                <!--</select>-->
-            <!--</div>-->
-
-            <!--<div class="question-wrapper">-->
-                <!--<span class="badge">Q3</span>-->
-                <!--<h4>You find it easy to stay relaxed and focused even when there is some pressure.</h4>-->
-                <!--&lt;!&ndash; * Numbers associated with user choice || id associated with question number&ndash;&gt;-->
-                <!--<select data-placeholder="" class="chosen-select" id="q3">-->
-                    <!--<option value=""></option>-->
-                    <!--<option value="1">1 (Strongly Disagree)</option>-->
-                    <!--<option value="2">2</option>-->
-                    <!--<option value="3">3</option>-->
-                    <!--<option value="4">4</option>-->
-                    <!--<option value="5">5 (Strongly Agree)</option>-->
-                <!--</select>-->
-            <!--</div>-->
-
-            <!--<div class="question-wrapper">-->
-                <!--<span class="badge">Q4</span>-->
-                <!--<h4>You rarely do something just out of sheer curiosity.</h4>-->
-                <!--&lt;!&ndash; * Numbers associated with user choice || id associated with question number&ndash;&gt;-->
-                <!--<select data-placeholder="" class="chosen-select" id="q4">-->
-                    <!--<option value=""></option>-->
-                    <!--<option value="1">1 (Strongly Disagree)</option>-->
-                    <!--<option value="2">2</option>-->
-                    <!--<option value="3">3</option>-->
-                    <!--<option value="4">4</option>-->
-                    <!--<option value="5">5 (Strongly Agree)</option>-->
-                <!--</select>-->
-            <!--</div>-->
-
-            <!--<div class="question-wrapper">-->
-                <!--<span class="badge">Q5</span>-->
-                <!--<h4>People can rarely upset you.</h4>-->
-                <!--&lt;!&ndash; * Numbers associated with user choice || id associated with question number&ndash;&gt;-->
-                <!--<select data-placeholder="" class="chosen-select" id="q5">-->
-                    <!--<option value=""></option>-->
-                    <!--<option value="1">1 (Strongly Disagree)</option>-->
-                    <!--<option value="2">2</option>-->
-                    <!--<option value="3">3</option>-->
-                    <!--<option value="4">4</option>-->
-                    <!--<option value="5">5 (Strongly Agree)</option>-->
-                <!--</select>-->
-            <!--</div>-->
-
-            <!--<div class="question-wrapper">-->
-                <!--<span class="badge">Q6</span>-->
-                <!--<h4>It is often difficult for you to relate to other people’s feelings.</h4>-->
-                <!--&lt;!&ndash; * Numbers associated with user choice || id associated with question number&ndash;&gt;-->
-                <!--<select data-placeholder="" class="chosen-select" id="q6">-->
-                    <!--<option value=""></option>-->
-                    <!--<option value="1">1 (Strongly Disagree)</option>-->
-                    <!--<option value="2">2</option>-->
-                    <!--<option value="3">3</option>-->
-                    <!--<option value="4">4</option>-->
-                    <!--<option value="5">5 (Strongly Agree)</option>-->
-                <!--</select>-->
-            <!--</div>-->
-
-            <!--<div class="question-wrapper">-->
-                <!--<span class="badge">Q7</span>-->
-                <!--<h4>In a discussion, truth should be more important than people’s sensitivities.</h4>-->
-                <!--&lt;!&ndash; * Numbers associated with user choice || id associated with question number&ndash;&gt;-->
-                <!--<select data-placeholder="" class="chosen-select" id="q7">-->
-                    <!--<option value=""></option>-->
-                    <!--<option value="1">1 (Strongly Disagree)</option>-->
-                    <!--<option value="2">2</option>-->
-                    <!--<option value="3">3</option>-->
-                    <!--<option value="4">4</option>-->
-                    <!--<option value="5">5 (Strongly Agree)</option>-->
-                <!--</select>-->
-            <!--</div>-->
-
-            <!--<div class="question-wrapper">-->
-                <!--<span class="badge">Q8</span>-->
-                <!--<h4>You rarely get carried away by fantasies and ideas.</h4>-->
-                <!--&lt;!&ndash; * Numbers associated with user choice || id associated with question number&ndash;&gt;-->
-                <!--<select data-placeholder="" class="chosen-select" id="q8">-->
-                    <!--<option value=""></option>-->
-                    <!--<option value="1">1 (Strongly Disagree)</option>-->
-                    <!--<option value="2">2</option>-->
-                    <!--<option value="3">3</option>-->
-                    <!--<option value="4">4</option>-->
-                    <!--<option value="5">5 (Strongly Agree)</option>-->
-                <!--</select>-->
-            <!--</div>-->
-
-            <!--<div class="question-wrapper">-->
-                <!--<span class="badge">Q9</span>-->
-                <!--<h4>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h4>-->
-                <!--&lt;!&ndash; * Numbers associated with user choice || id associated with question number&ndash;&gt;-->
-                <!--<select data-placeholder="" class="chosen-select" id="q9">-->
-                    <!--<option value=""></option>-->
-                    <!--<option value="1">1 (Strongly Disagree)</option>-->
-                    <!--<option value="2">2</option>-->
-                    <!--<option value="3">3</option>-->
-                    <!--<option value="4">4</option>-->
-                    <!--<option value="5">5 (Strongly Agree)</option>-->
-                <!--</select>-->
-            <!--</div>-->
-
-            <!--<div class="question-wrapper">-->
-                <!--<span class="badge">Q10</span>-->
-                <!--<h4>You feel more energetic after spending time with a group of people.</h4>-->
-                <!--&lt;!&ndash; * Numbers associated with user choice || id associated with question number&ndash;&gt;-->
-                <!--<select data-placeholder="" class="chosen-select" id="q10">-->
-                    <!--<option value=""></option>-->
-                    <!--<option value="1">1 (Strongly Disagree)</option>-->
-                    <!--<option value="2">2</option>-->
-                    <!--<option value="3">3</option>-->
-                    <!--<option value="4">4</option>-->
-                    <!--<option value="5">5 (Strongly Agree)</option>-->
-                <!--</select>-->
-            <!--</div>-->
-
-            <!--<br>-->
-            <!--<br>-->
-
-            <!--&lt;!&ndash; Submit Button &ndash;&gt;-->
-            <!--<button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>Submit</button>-->
-
-            <!--<hr>-->
-            <!--<footer class="footer">-->
-                <!--<div class="container">-->
-                    <!--<p><a href="/api/matches" target="_blank">API Matches List</a> | <a href="https://github.com/NBDelpino1/matchup" target="_blank">GitHub Repo</a></p>-->
-                <!--</div>-->
-            <!--</footer>-->
-            <!--&lt;!&ndash; Stays together &ndash;&gt;-->
-        <!--</div>-->
-    <!--</div>-->
-
-
-<div class="main-wrapper">
-    <div id="unstickyheader">
-        <div class="header text-center">
-            <img src="img/logoimgsmall.png">
-            <h3>Survey Questions</h3>
-        </div>
-    </div>
-
-    <div id="stickyheader">
-        <div class="userinput-wrapper">
-            <!--<span class="badge about-badge">About You</span>-->
-
-            <h4 class="ctatext">Name (Required)</h4>
-            <!--Get User name-->
-            <input type="text" name="" id="name" class="form-control" required >
-
-            <h4 class="ctatext">Link to Photo Image (Required)</h4>
-            <!--Get User photo-->
-            <input type="text" name="" id="photo" class="form-control" required >
-        </div>
-    </div>
-
-    <!--<div id="stickyalias"></div>-->
-
-    <div id="othercontent">
-        <div class="question-wrapper">
-            <span class="badge">Q1</span>
-            <h4>Your mind is always buzzing with unexplored ideas and plans.</h4>
-            <!-- * Numbers associated with user choice || id associated with question number-->
-            <select data-placeholder="" class="chosen-select" id="q1">
-                <option value=""></option>
-                <option value="1">1 (Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5 (Strongly Agree)</option>
-            </select>
-        </div>
-
-        <div class="question-wrapper">
-            <span class="badge">Q2</span>
-            <h4>Generally speaking, you rely more on your experience than your imagination.</h4>
-            <!-- * Numbers associated with user choice || id associated with question number-->
-            <select data-placeholder="" class="chosen-select" id="q2">
-                <option value=""></option>
-                <option value="1">1 (Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5 (Strongly Agree)</option>
-            </select>
-        </div>
-
-        <div class="question-wrapper">
-            <span class="badge">Q3</span>
-            <h4>You find it easy to stay relaxed and focused even when there is some pressure.</h4>
-            <!-- * Numbers associated with user choice || id associated with question number-->
-            <select data-placeholder="" class="chosen-select" id="q3">
-                <option value=""></option>
-                <option value="1">1 (Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5 (Strongly Agree)</option>
-            </select>
-        </div>
-
-        <div class="question-wrapper">
-            <span class="badge">Q4</span>
-            <h4>You rarely do something just out of sheer curiosity.</h4>
-            <!-- * Numbers associated with user choice || id associated with question number-->
-            <select data-placeholder="" class="chosen-select" id="q4">
-                <option value=""></option>
-                <option value="1">1 (Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5 (Strongly Agree)</option>
-            </select>
-        </div>
-
-        <div class="question-wrapper">
-            <span class="badge">Q5</span>
-            <h4>People can rarely upset you.</h4>
-            <!-- * Numbers associated with user choice || id associated with question number-->
-            <select data-placeholder="" class="chosen-select" id="q5">
-                <option value=""></option>
-                <option value="1">1 (Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5 (Strongly Agree)</option>
-            </select>
-        </div>
-
-        <div class="question-wrapper">
-            <span class="badge">Q6</span>
-            <h4>It is often difficult for you to relate to other people’s feelings.</h4>
-            <!-- * Numbers associated with user choice || id associated with question number-->
-            <select data-placeholder="" class="chosen-select" id="q6">
-                <option value=""></option>
-                <option value="1">1 (Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5 (Strongly Agree)</option>
-            </select>
-        </div>
-
-        <div class="question-wrapper">
-            <span class="badge">Q7</span>
-            <h4>In a discussion, truth should be more important than people’s sensitivities.</h4>
-            <!-- * Numbers associated with user choice || id associated with question number-->
-            <select data-placeholder="" class="chosen-select" id="q7">
-                <option value=""></option>
-                <option value="1">1 (Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5 (Strongly Agree)</option>
-            </select>
-        </div>
-
-        <div class="question-wrapper">
-            <span class="badge">Q8</span>
-            <h4>You rarely get carried away by fantasies and ideas.</h4>
-            <!-- * Numbers associated with user choice || id associated with question number-->
-            <select data-placeholder="" class="chosen-select" id="q8">
-                <option value=""></option>
-                <option value="1">1 (Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5 (Strongly Agree)</option>
-            </select>
-        </div>
-
-        <div class="question-wrapper">
-            <span class="badge">Q9</span>
-            <h4>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h4>
-            <!-- * Numbers associated with user choice || id associated with question number-->
-            <select data-placeholder="" class="chosen-select" id="q9">
-                <option value=""></option>
-                <option value="1">1 (Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5 (Strongly Agree)</option>
-            </select>
-        </div>
-
-        <div class="question-wrapper">
-            <span class="badge">Q10</span>
-            <h4>You feel more energetic after spending time with a group of people.</h4>
-            <!-- * Numbers associated with user choice || id associated with question number-->
-            <select data-placeholder="" class="chosen-select" id="q10">
-                <option value=""></option>
-                <option value="1">1 (Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5 (Strongly Agree)</option>
-            </select>
-        </div>
-
-        <br>
-        <br>
-
-        <!-- Submit Button -->
-        <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>Submit</button>
-
-        <hr>
-        <footer class="footer">
-            <div class="container">
-                <p><a href="/api/matches" target="_blank">API Matches List</a> | <a href="https://github.com/NBDelpino1/matchup" target="_blank">GitHub Repo</a></p>
+            <div class="header text-center">
+                <img src="img/logoimgsmall.png">
+                <h3>Survey Questions</h3>
             </div>
-        </footer>
-        <!-- Stays together -->
+            <div class="userinput-wrapper">
+                <h3 class="surveyh3">User Information</h3>
+                <h4 class="surveyh4">Name (Required)</h4>
+                <!-- Get User name -->
+                <input type="text" name="" id="name" class="form-control" required >
+
+                <h4 class="surveyh4">Link to Photo Image (Required)</h4>
+                <!-- Get User photo -->
+                <input type="text" name="" id="photo" class="form-control" required data-toggle="tooltip" data-placement="left" title="For Demo just enter in any random text - you do NOT need a url">
+            </div>
+            <div class="question-wrapper">
+                <span class="badge">Q1</span>
+                <h4>Your mind is always buzzing with unexplored ideas and plans.</h4>
+                <!-- * Numbers associated with user choice || id associated with question number-->
+                <select data-placeholder="" class="chosen-select" id="q1">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="question-wrapper">
+                <span class="badge">Q2</span>
+                <h4>Generally speaking, you rely more on your experience than your imagination.</h4>
+                <!-- * Numbers associated with user choice || id associated with question number-->
+                <select data-placeholder="" class="chosen-select" id="q2">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="question-wrapper">
+                <span class="badge">Q3</span>
+                <h4>You find it easy to stay relaxed and focused even when there is some pressure.</h4>
+                <!-- * Numbers associated with user choice || id associated with question number-->
+                <select data-placeholder="" class="chosen-select" id="q3">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="question-wrapper">
+                <span class="badge">Q4</span>
+                <h4>You rarely do something just out of sheer curiosity.</h4>
+                <!-- * Numbers associated with user choice || id associated with question number-->
+                <select data-placeholder="" class="chosen-select" id="q4">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="question-wrapper">
+                <span class="badge">Q5</span>
+                <h4>People can rarely upset you.</h4>
+                <!-- * Numbers associated with user choice || id associated with question number-->
+                <select data-placeholder="" class="chosen-select" id="q5">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="question-wrapper">
+                <span class="badge">Q6</span>
+                <h4>It is often difficult for you to relate to other people’s feelings.</h4>
+                <!-- * Numbers associated with user choice || id associated with question number-->
+                <select data-placeholder="" class="chosen-select" id="q6">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="question-wrapper">
+                <span class="badge">Q7</span>
+                <h4>In a discussion, truth should be more important than people’s sensitivities.</h4>
+                <!-- * Numbers associated with user choice || id associated with question number-->
+                <select data-placeholder="" class="chosen-select" id="q7">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="question-wrapper">
+                <span class="badge">Q8</span>
+                <h4>You rarely get carried away by fantasies and ideas.</h4>
+                <!-- * Numbers associated with user choice || id associated with question number-->
+                <select data-placeholder="" class="chosen-select" id="q8">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="question-wrapper">
+                <span class="badge">Q9</span>
+                <h4>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h4>
+                <!-- * Numbers associated with user choice || id associated with question number-->
+                <select data-placeholder="" class="chosen-select" id="q9">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="question-wrapper">
+                <span class="badge">Q10</span>
+                <h4>You feel more energetic after spending time with a group of people.</h4>
+                <!-- * Numbers associated with user choice || id associated with question number-->
+                <select data-placeholder="" class="chosen-select" id="q10">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <br>
+            <br>
+
+            <!-- Submit Button -->
+            <!--<button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>Submit</button>-->
+            <div class="text-center">
+                <a href=""><button type="submit" class="btn btn-lg btn-primary"><h4><span class="glyphicon glyphicon-list-alt"></span> Submit Survey</h4></button></a>
+            </div>
+
+            <footer class="footer">
+                <div class="container">
+                    <p><a href="/api/matches" target="_blank">API Matches List</a> | <a href="https://github.com/NBDelpino1/matchup" target="_blank">GitHub Repo</a></p>
+                </div>
+            </footer>
+            <!-- Stays together -->
+        </div>
     </div>
 </div>
 
-    <!-- =========================================================================================================================== -->
-    <!-- Modal -->
-    <div id="resultsModal" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h2 class="modal-title"><strong>Best Match</strong></h2>
-                </div>
-                <div class="modal-body">
-                    <h2 id="matchName"></h2>
-                    <img id="matchImg" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg" alt="">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <!-- Modal -->
-    <div id="alertModal" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h2 class="modal-title"><strong>Warning</strong></h2>
-                </div>
-                <div class="modal-body">
-                    <h2>Please fill out all fields before submitting!</h2>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <!-- =========================================================================================================================== -->
 <script type="text/javascript">
 
     // Chosen jQuery Plugin CSS
@@ -515,20 +279,9 @@
         return false;
     });
 
-    // Sticky Header Stuff
-    $(function(){
-        // Check the initial Poistion of the Sticky Header
-        var stickyHeaderTop = $('#stickyheader').offset().top;
-
-        $(window).scroll(function(){
-            if( $(window).scrollTop() > stickyHeaderTop ) {
-                $('#stickyheader').css({position: 'fixed', top: '0px'});
-            } else {
-                $('#stickyheader').css({position: 'static', top: '0px'});
-            }
-        });
-    });
-
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
 </script>
 
 <!--<script src="../data/app.js"></script>-->

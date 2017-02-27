@@ -1,58 +1,10 @@
-/*.hmpg-outer-wrapper {*/
-/*background:*/
-/*!* transparent bg, faked with gradient *!*/
-/*!*linear-gradient(*!*/
-/*!*rgba(33, 150, 243, 0.68),*!*/
-/*!*rgba(33, 150, 243, 0.68)*!*/
-/*!*),*!*/
-
-/*linear-gradient(*/
-/*rgba(0, 0, 0, 0.6),*/
-/*rgba(0, 0, 0, 0.6)*/
-/*),*/
-/*url(../img/bgimg.jpeg) no-repeat center center scroll;*/
-/*display: table;*/
-/*position: relative;*/
-/*width: 100%;*/
-/*height: 100%;*/
-/*-webkit-background-size: cover;*/
-/*-moz-background-size: cover;*/
-/*background-size: cover;*/
-/*-o-background-size: cover;*/
-/*}*/
-
-/*.hmpg-inner-wrapper {*/
-/*display: table-cell;*/
-/*text-align: center;*/
-/*vertical-align: middle;*/
-/*}*/
-
-
-
 /*===========================================================*/
     /* Global Styles */
 /*===========================================================*/
-
 html,
 body {
     width: 100%;
     height: 100%;
-}
-
-/* set background image and tint */
-body {
-    /*background-image: url("../img/bgimg.jpeg");*/
-    /*background-size: cover;*/
-    background:
-            linear-gradient(
-                    rgba(0, 0, 0, 0.6),
-                    rgba(0, 0, 0, 0.6)
-            ),
-            url(../img/bgimg.jpeg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
 
 /* CTA buttons styling */
@@ -60,23 +12,34 @@ body {
     background-color: rgba(255, 0, 0, 0.75);
     border:0;
     margin-bottom:25px;
+    font-family: 'Sansita', sans-serif;
 }
+
 
 /* CTA buttons hover effect */
 .btn-primary:hover {
     background-color: rgba(255, 0, 0, 10);
 }
 
-/*CTA Text Color*/
-.ctatext {
-    color: #ded2d2;
-}
-
-
 /*===========================================================*/
     /* Local Styles */
 /*===========================================================*/
-
+/* set background image and tint */
+.hmpg-outer-wrapper {
+    /*background-image: url("../img/hmpgbgimg.jpeg");*/
+    /*background-size: cover;*/
+    background:
+            linear-gradient(
+                    rgba(0, 0, 0, 0.6),
+                    rgba(0, 0, 0, 0.6)
+            ),
+            url(../img/hmpgbgimg.jpeg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height:100%;
+}
 
 /* center content on home page */
 .hmpg-inner-wrapper {
@@ -90,141 +53,98 @@ body {
 
 h3 {
     color: #fff;
+    font-family: 'Sansita', sans-serif;
+}
+
+h4 {
+    color: #fff;
 }
 
 
 
-
-
-
-
-
-#unstickyheader {
-    margin-bottom: 15px;
-}
-
-#stickyheader {
-    width: 100%;
-    height: 10px;
-}
-
-#othercontent {
-    margin-top: 175px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.main-wrapper {*/
-    /*background:*/
-        /*!* transparent bg, faked with gradient *!*/
-        /*!*linear-gradient(*!*/
-        /*!*rgba(33, 150, 243, 0.68),*!*/
-        /*!*rgba(33, 150, 243, 0.68)*!*/
-        /*!*),*!*/
-
-            /*linear-gradient(*/
-                    /*rgba(0, 0, 0, 0.6),*/
-                    /*rgba(0, 0, 0, 0.6)*/
-            /*),*/
-            /*url(../img/bgimg.jpeg) no-repeat center center scroll;*/
-    /*display: table;*/
-    /*position: relative;*/
-    /*width: 100%;*/
-    /*height: 100%;*/
-    /*-webkit-background-size: cover;*/
-    /*-moz-background-size: cover;*/
+ /*set background image and tint*/
+.survey-content-wrapper {
+    /*background-image: url("../img/hmpgbgimg.jpeg");*/
     /*background-size: cover;*/
-    /*-o-background-size: cover;*/
-/*}*/
-
-
-.main-wrapper {
-    background-color: #fff;
+    background:
+            linear-gradient(
+                    rgba(0, 0, 0, 0.6),
+                    rgba(0, 0, 0, 0.6)
+            ),
+            url(../img/surveybg.jpeg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height:100%;
 }
 
 
+img {
+    margin-top:100px;
+}
+
+.surveyh3 {
+    color: #000;
+    font-family: 'Sansita', sans-serif;
+
+}
+
+.surveyh4 {
+    color: #000;
+    font-family: 'Sansita', sans-serif;
+}
 
 
+.userinput-wrapper {
+    margin-top:30px;
+    margin-bottom:30px;
+    padding:15px 15px 15px 15px;
+    background-image: url(../img/ctabg.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.question-main-wrapper {
+    padding:20px;
+    overflow-x: hidden;
+    max-height: 100vh;
+}
+
+@media screen and (min-width: 480px) {
+    .question-main-wrapper {
+        width:50%;
+        margin:auto;
+        overflow-x: hidden;
+        max-height: 100vh;
+    }
+
+}
+
+.form-control {
+    height:35px;
+}
+
+.question-wrapper {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding:15px 15px 15px 15px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+/*question number style*/
+.badge {
+    background-color: rgba(139,195,74,10);
+    font-size:25px;
+    width:70px;
+}
+
+input, select, textarea {
+    background-color: rgba(255,255,255,10);
+    height:35px;
+    border:0;
+    margin-bottom:15px;
+    margin-top:15px;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.header {*/
-    /*margin-top:60px;*/
-/*}*/
-
-/*button, input, select, textarea {*/
-    /*background-color: #fff;*/
-/*}*/
-
-/*h4 {*/
-    /*color: #fff;*/
-/*}*/
-
-
-
-/*h2 {*/
-    /*color: #00a9ff;*/
-/*}*/
-
-
-/*!*question number style*!*/
-/*.badge {*/
-    /*background-color: #00a9ff;*/
-    /*font-size:25px;*/
-    /*width:70px;*/
-/*}*/
-
-/*!*about style*!*/
-/*.about-badge {*/
-    /*background-color: #ff0000;*/
-    /*font-size:25px;*/
-    /*width:150px;*/
-    /*padding:10px;*/
-/*}*/
-
-/*.question-wrapper {*/
-    /*!*background-color: rgba(222,254,255,.15);*!*/
-    /*!*background-color: rgba(0,0,0,.15);*!*/
-    /*background-color: rgba(205,220,57,.44);*/
-    /*padding:15px 15px 15px 15px;*/
-    /*margin-top:5px;*/
-    /*margin-bottom:5px;*/
-/*}*/
-
-/*.userinput-wrapper {*/
-    /*background-color: rgba(255,0,0,.44);*/
-    /*padding:15px 15px 15px 15px;*/
-    /*margin-top:5px;*/
-    /*margin-bottom:5px;*/
-/*}*/
