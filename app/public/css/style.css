@@ -144,4 +144,17 @@ input, select, textarea {
     margin-top:15px;
 }
 
+.modal-content {
+    background-image: url(../img/dangerimg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Sansita', sans-serif;
+}
 
+.modalbutton {
+    background-color: rgba(255, 0, 0, 10);
+    border:0;
+    font-family: 'Sansita', sans-serif;
+}
