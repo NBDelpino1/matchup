@@ -145,10 +145,16 @@ input, select, textarea {
     margin-top:15px;
 }
 
-.modal-content {
+.alert-modal-content {
     background-image: url(../img/dangerimg.png);
     background-repeat: no-repeat;
     background-position: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Sansita', sans-serif;
+}
+
+.result-modal-content {
     text-align: center;
     text-transform: uppercase;
     font-family: 'Sansita', sans-serif;
