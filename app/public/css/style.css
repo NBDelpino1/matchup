@@ -94,11 +94,12 @@ img {
 
 .userinput-wrapper {
     margin-top:30px;
-    margin-bottom:30px;
+    /*margin-bottom:30px;*/
     padding:15px 15px 15px 15px;
     background-image: url(../img/ctabg.png);
     background-size:cover;
     background-repeat: no-repeat;
+    border-radius:5px 5px 0 0;
 }
 
 .question-main-wrapper {
@@ -158,3 +159,11 @@ input, select, textarea {
     border:0;
     font-family: 'Sansita', sans-serif;
 }
+
+
+.redbar-styleonly {
+    height:10px;
+    background-color: rgba(255, 0, 0, 0.75);
+}
+
+

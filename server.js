@@ -2,10 +2,7 @@ var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
 var path = require("path");
-
 var PORT = process.env.PORT || 8081;
-
-
 
 
 // create application/x-www-form-urlencoded parser
@@ -18,33 +15,13 @@ app.use(bodyParser.json({ type: 'application/*+json' }));
 // parse some custom thing into a Buffer
 app.use(bodyParser.raw({ type: 'application/vnd.custom-type' }));
 
-
-//=======================testing area=======================
-// app.use(express.static(__dirname + "/public"));
+//=======================styling=======================
+// enable app to access css and img files;
 app.use(express.static('app/public'));
-//=======================testing area=======================
-
-
-
-
+//=======================styling=======================
 
 // parse an HTML body into a string
 app.use(bodyParser.text({ type: 'text/html' }));
-
-
-
-
-
-
-//=======================testing area=======================
-
-// app.use(express.static('public'));
-
-
-//=======================testing area=======================
-
-
-
 
 //include api routes
 require('./app/routing/api-routes.js')(app);
