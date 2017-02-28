@@ -15,16 +15,29 @@ app.use(bodyParser.json({ type: 'application/*+json' }));
 // parse some custom thing into a Buffer
 app.use(bodyParser.raw({ type: 'application/vnd.custom-type' }));
 
+
+
+
+
+//=======================testing area=======================
+app.use(express.static(__dirname + "/public"));
+//=======================testing area=======================
+
+
 // parse an HTML body into a string
 app.use(bodyParser.text({ type: 'text/html' }));
 
 
-//testing area=======================
+
+
+
+
+//=======================testing area=======================
 
 // app.use(express.static('public'));
 
 
-//testing area=======================
+//=======================testing area=======================
 
 
 
