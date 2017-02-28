@@ -5,6 +5,9 @@ var path = require("path");
 
 var PORT = process.env.PORT || 8081;
 
+
+
+
 // create application/x-www-form-urlencoded parser
 // Front and back end communication "translate everything into same language so to speak" (modified to include app.use and from false to true)
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -16,12 +19,12 @@ app.use(bodyParser.json({ type: 'application/*+json' }));
 app.use(bodyParser.raw({ type: 'application/vnd.custom-type' }));
 
 
-
-
-
 //=======================testing area=======================
 app.use(express.static(__dirname + "/public"));
 //=======================testing area=======================
+
+
+
 
 
 // parse an HTML body into a string
