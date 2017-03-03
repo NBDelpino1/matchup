@@ -1,7 +1,7 @@
-/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Sansita:700i');*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Sansita:700i');
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('https://fonts.googleapis.com/css?family=Sansita:700i');
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans');*/
+/*@import url('https://fonts.googleapis.com/css?family=Sansita:700i');*/
 
 /*===========================================================*/
     /* Global Styles */
@@ -82,9 +82,20 @@ h4 {
     height:100%;
 }
 
+
+
+
 #logo-small-img {
-    margin-top:100px;
+
 }
+
+
+@media screen and (min-width: 480px) {
+    #logo-small-img {
+        margin-top:100px;
+    }
+}
+
 
 .userinput-wrapper {
     margin-top:30px;
