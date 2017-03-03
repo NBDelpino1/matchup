@@ -82,20 +82,9 @@ h4 {
     height:100%;
 }
 
-
-
-
 #logo-small-img {
-
+    margin-top:100px;
 }
-
-
-@media screen and (min-width: 480px) {
-    #logo-small-img {
-        margin-top:100px;
-    }
-}
-
 
 .userinput-wrapper {
     margin-top:30px;
@@ -114,7 +103,8 @@ h4 {
 
 .question-main-wrapper {
     /*padding:20px;*/
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
+    overflow-y: auto;
     max-height: 100vh;
 }
 
@@ -123,9 +113,15 @@ h4 {
         width:50%;
         margin:auto;
         /*make it so div scrolls up instead of extending below main image*/
-        overflow-x: hidden;
+        /*overflow-x: hidden;*/
+        /*TODO*/overflow-y: auto;
         max-height: 100vh;
     }
+}
+
+/*hide scroll bar*/
+::-webkit-scrollbar {
+    display: none;
 }
 
 .form-control {
