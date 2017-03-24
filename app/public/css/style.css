@@ -47,6 +47,7 @@ h4 {
                     rgba(0, 0, 0, 0.6),
                     rgba(0, 0, 0, 0.6)
             ),
+            /*url(../img/hmpgbgimg.jpeg) no-repeat center center scroll;*/
             url(../img/background-img-homepage.jpeg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
