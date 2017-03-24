@@ -25,7 +25,8 @@ h4 {
 
 /* CTA buttons styling */
 .btn-primary {
-    background-color: rgba(255, 0, 0, 0.75);
+    /*background-color: rgba(255, 0, 0, 0.75);*/
+    background-color: rgba(183, 3, 26, 1);
     border:0;
     margin-bottom:25px;
     font-family: 'Sansita', sans-serif;
@@ -41,14 +42,12 @@ h4 {
 /*===========================================================*/
 /* set background image and tint */
 .hmpg-outer-wrapper {
-    /*background-image: url("../img/hmpgbgimg.jpeg");*/
-    /*background-size: cover;*/
     background:
             linear-gradient(
                     rgba(0, 0, 0, 0.6),
                     rgba(0, 0, 0, 0.6)
             ),
-            url(../img/hmpgbgimg.jpeg) no-repeat center center scroll;
+            url(../img/background-img-homepage.jpeg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -67,14 +66,12 @@ h4 {
 
  /*set background image and tint*/
 .survey-content-wrapper {
-    /*background-image: url("../img/hmpgbgimg.jpeg");*/
-    /*background-size: cover;*/
     background:
             linear-gradient(
                     rgba(0, 0, 0, 0.6),
                     rgba(0, 0, 0, 0.6)
             ),
-            url(../img/surveybg.jpeg) no-repeat center center scroll;
+            url(../img/background-img-survey.jpeg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -90,7 +87,7 @@ h4 {
     margin-top:30px;
     /*margin-bottom:30px;*/
     padding:15px 15px 15px 15px;
-    background-image: url(../img/ctabg.png);
+    background-image: url(../img/form-background-img.png);
     background-size:cover;
     background-repeat: no-repeat;
     border-radius:5px 5px 0 0;
@@ -107,9 +104,6 @@ h4 {
     overflow-y: auto;
     max-height: 100vh;
 }
-
-
-
 
 @media screen and (min-width: 480px) {
     .question-main-wrapper {
@@ -203,6 +197,7 @@ input, select, textarea {
 }
 
 a {
-    color: #009fff;
+    color: #fff;
 }
+
 
